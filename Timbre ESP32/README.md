@@ -1,5 +1,5 @@
 PROYECTO: 
-Enviar alerta por telegram cuando tocan el timbre usando una placa que detecta vibración del buzzer y cierra un circuito enviando a masa un PULL-UP interno en un PIN del Sparkfun ESP32 Thing 
+Enviar alerta por telegram cuando tocan el timbre usando un optoacoplador que cierra un circuito enviando a masa un PULL-UP interno en un PIN del Sparkfun ESP32 Thing para generar el trigger del mensaje.
 
 1) Es necesario instalar micropython en el Sparkfun ESP32 Thing. En la página oficial están las instrucciones para hacerlo: 
 
